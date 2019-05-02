@@ -9,4 +9,4 @@ docker run -it --rm \
        --volume $PWD:/root/project \
        --workdir /root/project \
        python \
-       sh -c 'pip install black && black ingestion-edge'
+       sh -c 'pip install black && black ingestion-edge ingestion-sink'
