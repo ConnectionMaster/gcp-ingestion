@@ -180,9 +180,9 @@ google-cloud-monitoring==2.0.0 \
     --hash=sha256:1debfa046ab9518d46b68712c03d86d0ddb11d1aad428aed62c6465752f2201f \
     --hash=sha256:8c83b4248b6576ed133a38c67d9aefed55ecea2c78b31ff4f340617f1a813a56
     # via -r requirements.in
-google-cloud-pubsub==1.0.2 \
-    --hash=sha256:12ff565ef00e4ca19d2ae26ae4515070094ba857d7c7024370dbed81fc7d58ab \
-    --hash=sha256:afb08eb558f3e4d836e6f77443f81555d6921ffc888c7c3085acd1205fba6e8c
+google-cloud-pubsub==2.2.0 \
+    --hash=sha256:44ea43f3603a641afee89b5789414a3db55a41a4e0f50c113dd0c8fddbc06e45 \
+    --hash=sha256:bc50a60803f5c409a295ec0e31cdd4acc271611ce3f4963a072036bbfa5ccde5
     # via -r requirements.in
 googleapis-common-protos[grpc]==1.52.0 \
     --hash=sha256:560716c807117394da12cecb0a54da5a451b5cf9866f1d37e9a5e2329a665351 \
@@ -276,12 +276,13 @@ kubernetes==12.0.1 \
     --hash=sha256:23c85d8571df8f56e773f1a413bc081537536dc47e2b5e8dc2e6262edb2c57ca \
     --hash=sha256:ec52ea01d52e2ec3da255992f7e859f3a76f2bdb51cf65ba8cd71dfc309d8daa
     # via -r requirements.in
-libcst==0.3.7 \
-    --hash=sha256:2dc234c4c911ae06f0d68c13f5ccd046b78d2aae293c334be4e3436803ec2d1f \
-    --hash=sha256:3ded555ceb853862ff26bb9bb9a81db0dceb5385f226f12f16bd4c28532dcdf1
+libcst==0.3.16 \
+    --hash=sha256:2c9e40245b8cb49b5219c76b36fe7037effa7594b9e6d5a092be99f8083d2415 \
+    --hash=sha256:99c200004b6e845642eea7a433844d144994767f9ed50705171720b76d28cf7e
     # via
     #   google-cloud-container
     #   google-cloud-monitoring
+    #   google-cloud-pubsub
 mccabe==0.6.1 \
     --hash=sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42 \
     --hash=sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f
@@ -375,6 +376,7 @@ proto-plus==1.9.1 \
     # via
     #   google-cloud-container
     #   google-cloud-monitoring
+    #   google-cloud-pubsub
 protobuf==3.12.2 \
     --hash=sha256:304e08440c4a41a0f3592d2a38934aad6919d692bb0edfb355548786728f9a5e \
     --hash=sha256:49ef8ab4c27812a89a76fa894fe7a08f42f2147078392c0dee51d4a444ef6df5 \
