@@ -172,9 +172,9 @@ google-auth==1.22.1 \
     # via
     #   google-api-core
     #   kubernetes
-google-cloud-container==2.3.0 \
-    --hash=sha256:0dcd8084dd55c0439ff065d3fb206e2e5c695d3a25effd774b74f8ce43afc911 \
-    --hash=sha256:2d5365a1d8679573bd27446ee8cb0c2174fc559a441869a2b930635231049d0b
+google-cloud-container==2.4.1 \
+    --hash=sha256:534f13c6911a909eb33a99e6f910c884d0c6ee144917682d3cde6b9349fe1950 \
+    --hash=sha256:e7d93ca399dd6fb5fd0f99190248531c9c583d1a85e7cd2c9ee485495459ee78
     # via -r requirements.in
 google-cloud-monitoring==2.0.0 \
     --hash=sha256:1debfa046ab9518d46b68712c03d86d0ddb11d1aad428aed62c6465752f2201f \
@@ -353,7 +353,9 @@ oauthlib==3.1.0 \
 packaging==20.4 \
     --hash=sha256:4357f74f47b9c12db93624a82154e9b120fa8293699949152b22065d556079f8 \
     --hash=sha256:998416ba6962ae7fbd6596850b80e17859a5753ba17c32284f67bfff33784181
-    # via pytest
+    # via
+    #   google-cloud-container
+    #   pytest
 pathspec==0.8.0 \
     --hash=sha256:7d91249d21749788d07a2d0f94147accd8f845507400749ea19c1ec9054a12b0 \
     --hash=sha256:da45173eb3a6f2a5a487efba21f050af2b41948be6ab52b6a1e3ff22bb8b7061
